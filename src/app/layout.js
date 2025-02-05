@@ -5,6 +5,9 @@ import MainHeader from "@/components/main-header/MainHeader";
 import Navbar from "@/components/navbar/Navbar";
 import MobileNavbar from "@/components/navbar/MobileNavbar";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

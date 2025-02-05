@@ -13,7 +13,7 @@ export default {
       },
       colors: {
         accent: "#F78F9c",
-        blackish: "1b1b1b",
+        blackish: "#1b1b1b",
       },
     },
   },
