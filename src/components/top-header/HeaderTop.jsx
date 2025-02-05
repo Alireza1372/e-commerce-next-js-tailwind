@@ -9,12 +9,20 @@ export default function HeaderTop() {
             <SocialMediaIcon />
           </div>
           <div className="text-gray-500 text-[12px]">
-            <strong>FREE SHIPPING</strong>
-            THIS WEEK ORDER - $55
+            <strong>FREE SHIPPING </strong>
+            <span>THIS WEEK ORDER - $55</span>
           </div>
-          <div>
-            <Selector id="currency" values={["USD $", "EUR €"]} />
-            <Selector id="language" values={["English", "French"]} />
+          <div className="flex gap-4 ">
+            <Selector
+              id="currency"
+              values={["USD $", "EUR €"]}
+              styles="text-gray-500 text-[12px] w-[70px] bg-white"
+            />
+            <Selector
+              id="language"
+              values={["English", "French"]}
+              styles="text-gray-500 text-[12px] w-[80px] bg-white"
+            />
           </div>
         </div>
       </div>
