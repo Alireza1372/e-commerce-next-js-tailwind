@@ -25,6 +25,7 @@ export default function Slide({ img, title, mainTitle, price }) {
         alt="banner"
         width={2000}
         height={2000}
+        priority
       />
     </div>
   );
