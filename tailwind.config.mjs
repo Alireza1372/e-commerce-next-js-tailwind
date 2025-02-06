@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        ctaBanner: "url('/cta-banner.jpg')",
+      },
       container: {
         center: true,
         padding: "15px",
