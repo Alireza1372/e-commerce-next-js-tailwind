@@ -39,7 +39,7 @@ export default function Testimonial() {
                 Summer Collection
               </h2>
               <p className="text-gray-500 text-[20px]">
-                Staring @ $20 <strong>Shop Now</strong>
+                Starting @ $20 <strong>Shop Now</strong>
               </p>
             </div>
           </div>
